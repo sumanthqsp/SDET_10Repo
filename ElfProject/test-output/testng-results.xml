@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73" started-at="2021-03-15T05:03:10Z" finished-at="2021-03-15T05:03:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73" started-at="2021-03-15T05:03:10Z" finished-at="2021-03-15T05:03:10Z">
+      <class name="createUSer.CreateUserDataTest">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:createUSer.CreateUserDataTest@523884b2]" name="createUser" duration-ms="24" started-at="2021-03-15T05:03:10Z" finished-at="2021-03-15T05:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUserWithMobileNo()[pri:0, instance:createUSer.CreateUserDataTest@523884b2]" name="createUserWithMobileNo" duration-ms="0" started-at="2021-03-15T05:03:10Z" depends-on-methods="createUSer.CreateUserDataTest.createUser" finished-at="2021-03-15T05:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithMobileNo -->
+      </class> <!-- createUSer.CreateUserDataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
